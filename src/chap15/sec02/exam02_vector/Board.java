@@ -1,0 +1,32 @@
+package chap15.sec02.exam02_vector;
+
+public class Board {
+
+    String subject;
+    String content;
+    String writer;
+
+
+    public Board() {
+    }
+
+    public Board(String subject, String content, String writer) {
+
+        this.subject = subject;
+        this.content = content;
+        this.writer = writer;
+    }
+
+    public String getSubject() {
+
+        return subject;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public String getWriter() {
+        return writer;
+    }
+}
