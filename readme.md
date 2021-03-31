@@ -35,6 +35,36 @@
 ## chapter 10. 예외 처리
 
 ## chapter 11. 기본 API 클래스
+  - ### 자바 API 도큐먼트
+  - ### java.lang 과 java.util 패키지
+  - ### Object 클래스
+    - #### [객체비교( equals() ) ](src/chap11/sec03/exam01_equals)
+    - #### [객체 해시코드(hashCode() )](src/chap11/sec03/exam02_hashcode/해시코드.md)
+    - #### [객체문자정보(toStrng() )]()
+    - #### [객체 복제(clone () ) ]()
+    - #### [객체 소멸자 finalize()]()
+    
+  - ### Objects 클래스
+    - #### [객체 비교 compare]()
+    - #### [동등비교 - eqauls() , deepEquals()]()
+    - #### [해시코드 생성 - hash() , hashCode()]()
+    - #### [널 여부조사 - isNUll() , nonNull() , requireNonNull()]()
+    - #### [객체 문자 정보 - toString()]()
+    
+  - ### System 클래스
+    - #### [프로그램 종료 - exit()](src/chap11/sec05/exam01_system_exit/ExitExample.java)
+    - #### [쓰레기 수집기 실행 - gc()](src/chap11/sec05/exam02_system_gc/GcExample.java)
+    - #### [현재 시간 읽기 , currentTimeMillis , nanoTime](src/chap11/sec05/exam03_currentTimeMillis_nanoTIme/SystemTimeExample.java)
+    - #### [시스템 프로퍼티 읽기 - getProperty](src/chap11/sec05/exam04_system_getProperty/GetPropertyExample.java)
+    - #### [환경 변수 읽기 - getenv](src/chap11/sec05/exam05_System_getenv/SystemEnvExample.java)
+    
+  - ### Class 클래스
+    - #### [Class 객체 얻기 ](src/chap11/sec06/exam01_class/ClassExample.java)
+    - #### [리플렉션( getDeclaredConstructor , getDeclaredFields , getDeclaredMethods)](src/chap11/sec06/exam02_reflection/ReflectionExample.java)
+    - #### [동적 객체 생성 - newInstane() ](src/chap11/sec06/exam03_newInstance)
+    
+ - ### String 클래스
+    - #### [String 생성자](src/chap11/sec07/exam01_String_constructor)
 
 ## chapter 12. 멀티스레드
 
