@@ -65,6 +65,31 @@
     
  - ### String 클래스
     - #### [String 생성자](src/chap11/sec07/exam01_String_constructor)
+    - #### [String 메소드](src/chap11/sec07/exam02_String_method)
+    
+  - ### StringTokenizer 클래스
+    - #### [split() 메소드](src/chap11/sec08/exam01_tokenizer_method/StringSplitExample.java)
+    - #### [StringTokenizer 클래스](src/chap11/sec08/exam02_tokenizer_class/StringTokenizerExample.java)
+ - ### [StringBuffer , StringBuilder 클래스](src/chap11/sec09/StringBuilderExample.java)
+    
+ - ### 정규 표현식과 Pattern 클래스
+    - #### [Pattern 클래스](src/chap11/sec10/exam01_Regular_expression_pattern/PatternExample.java)
+    
+ - ### Arrays 클래스
+    - #### [배열 복사](src/chap11/sec11/exam01_array_copy/ArrayCopyExample.java)
+    - #### [배열 항목 비교](src/chap11/sec11/exam02_array_equals/EqualsExample.java)
+    - #### [배열 항목 정렬](src/chap11/sec11/exam03_array_sort/SortExample.java)
+    - #### [배열 항목 검색](src/chap11/sec11/exam04_array_search/SearchExample.java)
+    
+- ### Wrapper (포장) 클래스
+    - #### [박싱(Boxing) 과 언박싱(Unboxing)](src/chap11/sec12)
+    - #### 자동 박싱과 언박싱
+    - #### 문자열을 기본 타입 값으로 변환
+    - #### 포장 값 비교
+    
+- ### Math, Random 클래스
+    
+
 
 ## chapter 12. 멀티스레드
 
