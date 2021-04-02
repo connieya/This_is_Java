@@ -17,9 +17,17 @@
     - #### 메소드 호춮
     - #### [메소드 오버로딩](src/chap06/sec08/exam04_method_overloading)
     
-- ### 인스턴스 멤버와 this 
+- ### [인스턴스 멤버와 this](src/chap06/sec09/exam01_instance_this) 
 
-
+- ### [정적 멤버와 static](src/chap06/sec10/정적멤버.md)
+    - #### [정적 멤버 사용](src/chap06/sec10/exam02_static_member)
+    - #### [정적 초기화 블록](src/chap06/sec10/정적초기화블록.md)
+    - #### [정적 메소드와 블록 선언시 주의할점](src/chap06/sec10/정적메소드와블록.md)
+    - #### [싱글톤(Singleton)](src/chap06/sec10/exam05_singleton)
+    
+- ### final 필드와 상수
+    - #### [final 필드](src/chap06/sec11/exam01_final_field)
+    - #### [상수(static final)](src/chap06/sec11/exam02_static_final)
 ## chapter 7. 상속
 - ### 클래스 상속
 - ### 부모 생성자 호출
