@@ -5,6 +5,8 @@
 
 ## chapter 2. 변수와 타입
 
+## chapter 3. 연산자
+
 ## chapter 4. 조건문과 반복문
 
 ## chapter 5. 참조 타입
@@ -102,6 +104,24 @@
 
 ## chapter 9. 중첩 클래스와 중첩 인터페이스
 
+- ### 중첩 클래스와 중첩 인터페이스란?
+- ### 중첩 클래스
+    - #### 인스턴스 멤버 클래스
+    - #### 정적 멤버 클래스
+    - #### [로컬 클래스](src/chap09/sec02/exam03_local_class)
+    
+- ### 중첩 클래스의 접근 제한
+    - #### [바깥 필드와 메소드에서 사용 제한](src/chap09/sec03/exam01_field_method/A.java)
+    - #### [멤버 클래스에서 사용 제한](src/chap09/sec03/exam02_member_class/멤버클래스.md)
+    - #### [로컬 클래스에서 사용 제한](src/chap09/sec03/exam03_local_class_restrict/Outter.java)
+    - #### [중첩 클래스에서 바깥 클래스 참조 얻기](src/chap09/sec03/exam04_nesting_class_reference/바깥클래스참조.md)
+    
+- ### [중첩 인터페이스](src/chap09/sec04/nesting_interface/중첩인터페이스.md)
+
+- ### 익명 객체
+    - #### [익명 자식 객체 생성](src/chap09/sec05/anonymous_object)
+
+
 ## chapter 10. 예외 처리
 
 ## chapter 11. 기본 API 클래스
@@ -176,3 +196,7 @@
 ## chapter 18. IO 기반 입출력 및 네트워킹
 
 ## chapter 19. NIO 기반 입출력 및 네트워킹
+
+**********
+
+__모든 chapter 가 완전히 이해되어 내 것이 될 때까지 무한 회독하기__
