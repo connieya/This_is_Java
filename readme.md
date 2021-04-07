@@ -10,7 +10,22 @@
 ## chapter 4. 조건문과 반복문
 
 ## chapter 5. 참조 타입
-
+- ### 데이터 타입 분류
+- ### 메모리 사용 영역
+- ### 참조 변수의 ==, != 연산
+- ### null 과 NullPointerException
+- ### String 타입
+- ### 배열 타입
+    - #### 배열이란?
+    - #### 배열 선언
+    - #### [값 목록으로 배열 생성](src/chap05/sec06/exam03_array_value/값목록으로배열생성.md)
+    - #### [new 연산자로 배열 생성](src/chap05/sec06/exam04_new_array)
+    - #### 배열 길이
+    - #### [커맨드 라인 입력](src/chap05/sec06/exam06_commandline/MainStringArrayArgument.java)
+    - #### 다차원 배열
+    - #### [객체를 참조하는 배열](src/chap05/sec06/exam08_array_reference_object/객체참조배열.md)]
+    - #### 배열복사
+    
 ## chapter 6. 클래스
 
 - ### 메소드
