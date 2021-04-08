@@ -1,4 +1,4 @@
-package chap11.sec12.exam01_boxing_unboxing;
+package chap11.sec12.exam03_string_to_primitive;
 
 public class StringToPrimitiveValueExample {
 
