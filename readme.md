@@ -242,7 +242,30 @@
 ## chapter 15. 컬렉션 프레임워크
 
 ## chapter 16. 스트림과 병렬 처리
+- ### 스트림 소개
+    - #### [반복자 스트림](src/chap16/sec01/exam01/IteratorVsSteamExample.java)
+    - #### [스트림의 특징](src/chap16/sec01/exam02)
+- ### 스트림의 종류
+    - #### [컬렉션으로부터 스트림 얻기](src/chap16/sec02/exam01)
+    - #### [배열루부터 스트림 얻기](src/chap16/sec02/exam02/FromArrayExample.java)
+    - #### [숫자 범위로부터 스트림 얻기](src/chap16/sec02/exam03/FromIntRangeExample.java)
+    - #### [파일로 부터 스트림 얻기](src/chap16/sec02/exam04/FromFileContentExample.java)
+    - #### [디렉토리로부터 스트림 얻기](src/chap16/sec02/exam05/FromDirectoryExample.java)
+    
+- ### 스트림 파이프라인
+    - #### [중간 처리와 최종 처리](src/chap16/sec03/exam01_stream_pipe_line)
+    - #### 중간 처리 메소드와 최종 처리 메소드
+    
+- ### [필터링(distinct() , filter())](src/chap16/sec04/FilteringExample.java)
 
+- ### 매핑(flatMapXXX(), mapXXX(), asXXXStream(), boxed())
+    - #### [flatMapXXX()메소드](src/chap16/sec05/exam01_flatmap/FlatMapExample.java)
+    - #### [mpaXXX()메소드](src/chap16/sec05/exam02_map)
+    - ### [asDoubleStream() , asLongStream() , boxed() 메소드](src/chap16/sec05/exam03_asdouble/AsDoubleStreamAndBoxedExample.java)
+    
+- ### [정렬(sorted())](src/chap16/sec06)
+- ### [루핑 (peek() , forEach())](src/chap16/sec07)
+    
 ## chapter 17. JavaFX
 
 ## chapter 18. IO 기반 입출력 및 네트워킹
@@ -256,3 +279,4 @@ __모든 chapter 가 완전히 이해되어 내 것이 될 때까지 무한 회�
 ***************
 
 1. 추상 클래스는 new 연산자를 이용해서 인스턴스를 생성할 수 없다. 그 이유는?
+2. 스트림에서 중간 처리와 최종 처리란? 그리고 차이점은 ?
