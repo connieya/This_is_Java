@@ -15,11 +15,18 @@ public class HashSetExample1 {
         set.add("Java");
         set.add("iBATIS");
 
+        System.out.println("set = " +set);
+
+
         int size =   set.size();
 
         System.out.println("총 객체 수 : " +size);
 
         Iterator<String > iterator = set.iterator();
+        System.out.println("iterator.next() : " + iterator.next());
+        System.out.println("iterator.next() : " + iterator.next());
+
+
         while (iterator.hasNext()){
             String element = iterator.next();
             System.out.println("\t" + element);

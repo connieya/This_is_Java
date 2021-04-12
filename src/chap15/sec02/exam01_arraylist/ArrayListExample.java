@@ -15,16 +15,23 @@ public class ArrayListExample {
 
         list.add(1,"iBATIS");
         System.out.println(list);
+        System.out.println("==============");
+        System.out.println("list.get(1) :" +list.get(1));
 
         list.remove(1);
+        System.out.println("list.get(1) :" +list.get(1));
         list.remove("java");
+        System.out.println("list.get(1) :" +list.get(1));
 
         for (int i=0; i< list.size();i++){
              String  str = list.get(i);
 
             System.out.println(str);
         }
-
+        System.out.println("===================");
+        list.add(1,"JPA");
+        System.out.println("list.get(1) :" +list.get(1));
+        System.out.println("list = " +list);
 
     }
 }

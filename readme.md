@@ -23,7 +23,7 @@
     - #### 배열 길이
     - #### [커맨드 라인 입력](src/chap05/sec06/exam06_commandline/MainStringArrayArgument.java)
     - #### 다차원 배열
-    - #### [객체를 참조하는 배열](src/chap05/sec06/exam08_array_reference_object/객체참조배열.md)]
+    - #### [객체를 참조하는 배열](src/chap05/sec06/exam08_array_reference_object/객체참조배열.md)
     - #### 배열복사
     
 ## chapter 6. 클래스
@@ -241,6 +241,34 @@
 
 ## chapter 15. 컬렉션 프레임워크
 
+- ### 컬렉션 프레임워크 소개
+- ### List 컬렉션  
+    - #### [ArrayList](src/chap15/sec02/exam01_arraylist)
+    - #### [Vector](src/chap15/sec02/exam02_vector)
+    - #### [LinkedList](src/chap15/sec02/exam03_linkedlist)
+    
+- ### [Set 컬렉션](src/chap15/sec03/Set컬렉션.md)
+  - #### [HashSet](src/chap15/sec03/exam01_hashset)
+    
+- ### Map 컬렉션
+  - #### [HashMap](src/chap15/sec04/exam01_hashmap)
+  - #### [Hashtable](src/chap15/sec04/exam02_hashtable/HashTableExample.java)
+  - #### [Properties](src/chap15/sec04/exam03_properties) 
+    
+- ### 검색 기능을 강화시킨 컬렉션
+    - #### 이진 트리 구조
+    - #### [TreeSet](src/chap15/sec05/exam01_treeset)
+    - #### [TreeMap](src/chap15/sec05/exam02_treemap)
+    - #### [Comparable 과 Comparator](src/chap15/sec05/exam03_comparable)
+
+- ### LIFO와 FIFO 컬렉션
+    - ### [Stack](src/chap15/sec06/exam01_stack)
+    - #### [Queue](src/chap15/sec06/exam02_queue)
+- ### 동기화된 컬렉션
+- ### 병렬 처리를 위한 컬렉션
+
+
+
 ## chapter 16. 스트림과 병렬 처리
 - ### 스트림 소개
     - #### [반복자 스트림](src/chap16/sec01/exam01/IteratorVsSteamExample.java)
@@ -261,7 +289,7 @@
 - ### 매핑(flatMapXXX(), mapXXX(), asXXXStream(), boxed())
     - #### [flatMapXXX()메소드](src/chap16/sec05/exam01_flatmap/FlatMapExample.java)
     - #### [mpaXXX()메소드](src/chap16/sec05/exam02_map)
-    - ### [asDoubleStream() , asLongStream() , boxed() 메소드](src/chap16/sec05/exam03_asdouble/AsDoubleStreamAndBoxedExample.java)
+    - #### [asDoubleStream() , asLongStream() , boxed() 메소드](src/chap16/sec05/exam03_asdouble/AsDoubleStreamAndBoxedExample.java)
     
 - ### [정렬(sorted())](src/chap16/sec06)
 - ### [루핑 (peek() , forEach())](src/chap16/sec07)
@@ -280,3 +308,4 @@ __모든 chapter 가 완전히 이해되어 내 것이 될 때까지 무한 회�
 
 1. 추상 클래스는 new 연산자를 이용해서 인스턴스를 생성할 수 없다. 그 이유는?
 2. 스트림에서 중간 처리와 최종 처리란? 그리고 차이점은 ?
+3. HashSet에서 equals() 와 hashCode()는 무엇을 의미하며 오버라이딩을 왜 하는가?

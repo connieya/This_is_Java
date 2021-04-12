@@ -32,7 +32,22 @@ public class HashMapExample1 {
 
         System.out.println("총 Entry 수 : " + map.size());
 
+        // 객체를 하나씩처리
         Set<Map.Entry<String ,Integer>> entrySet = map.entrySet();
+        Iterator<Map.Entry<String ,Integer>> entryIterator = entrySet.iterator();
+
+        while (entryIterator.hasNext()){
+            Map.Entry<String ,Integer> entry = entryIterator.next();
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            System.out.println("\t" +key + " : " +value );
+        }
+        System.out.println();
+
+        // 객체 전체 삭제
+        map.clear();
+        System.out.println("총 Entry 수 : " + map.size());
+
 
 
     }

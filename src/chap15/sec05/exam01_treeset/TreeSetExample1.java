@@ -14,6 +14,9 @@ public class TreeSetExample1 {
         scores.add(new Integer(95));
         scores.add(new Integer(80));
 
+
+        System.out.println("scores = " +scores);
+
         Integer score = null;
 
         score = scores.first();
