@@ -1,0 +1,19 @@
+package chap12.sec04.exam01_unsynchronized;
+
+public class Calculator {
+    private int memory;
+
+    public int getMemory() {
+        return memory;
+    }
+
+    public void setMemory(int memory) {
+        this.memory = memory;
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(Thread.currentThread().getName() + " : " +this.memory);
+    }
+}

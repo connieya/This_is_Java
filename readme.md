@@ -1,11 +1,45 @@
 # 이것이 자바다 (This is Java)
+*****
+###목차
 
+[chapter 1. 자바시작하기](#chapter-1--)
+
+[chapter 2. 변수와 타입](#chapter-2--)
+
+[chapter 3. 연산자](#chapter-3-)
+
+[chapter 4. 조건문과 반복문](#chapter-4--)
+
+[chapter 5. 참조타입](#chapter-5--)
+
+[chapter 6. 클래스](#chapter-6)
+
+[chapter 7. 상속](#chapter-7-)
+
+[chapter 8. 인터페이스](#chapter-8-)
+
+[chapter 9. 중첩 클래스와 인터페이스](#chapter-9---)
+
+[chapter 10. 예외 처리](#chapter-10--)
+
+[chapter 11. 기본 API 클래스](#chapter-11--api-)
+
+[chapter 12. 멅티스레드](#chapter-12-)
 
 *****
 
 ## chapter 1 . 자바시작하기
 
 ## chapter 2. 변수와 타입
+  - ### 변수
+    - #### 변수란?
+    - #### 변수의 선언
+    - #### [변수의 사용](src/chap02/sec01/exam03/변수값저장.md)
+    - #### 변수의 사용 범위
+  - ### 데이터 타입
+    - #### [기본(primitive)타입](src/chap02/sec02/exam01/기본타입.md)
+    - #### [정수(byte , char, short ,int . long)타입]()
+
 
 ## chapter 3. 연산자
 
@@ -237,6 +271,15 @@
     - #### [날짜와 시간을 비교하기](src/chap11/sec16/exam04/DateTimeCompareExample.java)
     - #### 파싱과 포맷팅
 ## chapter 12. 멀티스레드
+  - ### 멀티 스레드 개념
+  - ### 작업 스레드 생성과 실행
+  - ### 스레드 우선 순위
+  - ### 동기화 메소드와 동기화 블록
+  - ### 스레드 상태
+  - ### 스레드 상태 제어
+  - ### 데몬 스레드
+  - ### 스레드 그룹
+  - ### 스레드 풀
 
 ## chapter 13. 제네릭
 
