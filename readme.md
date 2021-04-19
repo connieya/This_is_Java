@@ -4,9 +4,9 @@
 
 [chapter 1. 자바시작하기](#chapter-1--)
 
-[chapter 2. 변수와 타입](#chapter-2--)
+[chapter 2. 변수와 타입](#chapter-2.-변수와-타입)
 
-[chapter 3. 연산자](#chapter-3-)
+[chapter 3. 연산자](#chapter-3-연산자)
 
 [chapter 4. 조건문과 반복문](#chapter-4--)
 
@@ -38,10 +38,16 @@
     - #### 변수의 사용 범위
   - ### 데이터 타입
     - #### [기본(primitive)타입](src/chap02/sec02/exam01/기본타입.md)
-    - #### [정수(byte , char, short ,int . long)타입]()
+    - #### [정수(byte , char, short ,int . long)타입](src/chap02/sec02/exam02/정수타입.md)
+    - #### [실수타입(float ,double)](src/chap02/sec02/exam02/FloatDoubleExample.java)
+    - #### 논리타입
+  
+  - ### 타입 변환
+    - #### [자동 타입 변환](src/chap02/sec03/exam01_/PromotionExample.java)
+    - #### [강제 타입 변환](src/chap02/sec03/exam02_)
+    - #### 연산식에서의 자동 타입 변환
 
-
-## chapter 3. 연산자
+## chapter 3 연산자
 
 ## chapter 4. 조건문과 반복문
 
