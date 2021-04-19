@@ -1,36 +1,50 @@
 # 이것이 자바다 (This is Java)
 *****
-###목차
+### 목차
 
-[chapter 1. 자바시작하기](#chapter-1--)
+[chapter 1. 자바시작하기](#chapter-1-자바시작하기)
 
-[chapter 2. 변수와 타입](#chapter-2.-변수와-타입)
+[chapter 2. 변수와 타입](#chapter-2-변수와-타입)
 
 [chapter 3. 연산자](#chapter-3-연산자)
 
-[chapter 4. 조건문과 반복문](#chapter-4--)
+[chapter 4. 조건문과 반복문](#chapter-4-조건문과-반복문)
 
-[chapter 5. 참조타입](#chapter-5--)
+[chapter 5. 참조타입](#chapter-5-참조-타입)
 
-[chapter 6. 클래스](#chapter-6)
+[chapter 6. 클래스](#chapter-6.-클래스)
 
-[chapter 7. 상속](#chapter-7-)
+[chapter 7. 상속](#chapter-7-상속)
 
-[chapter 8. 인터페이스](#chapter-8-)
+[chapter 8. 인터페이스](#chapter-8-인터페이스)
 
-[chapter 9. 중첩 클래스와 인터페이스](#chapter-9---)
+[chapter 9. 중첩 클래스와 인터페이스](#chapter-9-중첩-클래스와-중첩-인터페이스)
 
-[chapter 10. 예외 처리](#chapter-10--)
+[chapter 10. 예외 처리](#chapter-10-예외-처리)
 
-[chapter 11. 기본 API 클래스](#chapter-11--api-)
+[chapter 11. 기본 API 클래스](#chapter-11-기본-api-클래스)
 
-[chapter 12. 멅티스레드](#chapter-12-)
+[chapter 12. 멅티스레드](#chapter-12.-멀티스레드)
+
+[chapter 13. 제네릭](#chapter-13-제네릭)
+
+[charpter 14. 람다식](#chapter-14.-람다식)
+
+[chapter 15. 컬렉션프레임워크](#chapter-15-컬렉션)
+
+[chapter 16. 스트림과 병렬 처리](#chapter-16.-스트림과-병렬-처리)
+
+[chapter 17. JavaFx](#chapter-17.-javafx)
+
+[chapter 18. IO 기반 입출력 및 네트워킹](#chapter18-.io-기반-입출력-및-네트워킹)
+
+[chapter 19. NIO 기반 입출력 및 네트워킹](#chapter-19.-nio-기반-입출력-및-네트워킹)
 
 *****
 
-## chapter 1 . 자바시작하기
+## chapter 1 자바시작하기
 
-## chapter 2. 변수와 타입
+## chapter 2 변수와 타입
   - ### 변수
     - #### 변수란?
     - #### 변수의 선언
@@ -49,7 +63,7 @@
 
 ## chapter 3 연산자
 
-## chapter 4. 조건문과 반복문
+## chapter 4 조건문과 반복문
 
 ## chapter 5 참조 타입
 - ### 데이터 타입 분류
@@ -68,7 +82,7 @@
     - #### [객체를 참조하는 배열](src/chap05/sec06/exam08_array_reference_object/객체참조배열.md)
     - #### 배열복사
     
-## chapter 6.클래스
+## chapter 6 클래스
 
 - ### 메소드
     - #### 메소드 선언
@@ -99,7 +113,7 @@
 - ### 어노테이션
 
 
-## chapter 7. 상속
+## chapter 7 상속
 - ### 상속 개념
 - ### [클래스 상속](src/chap07/sec02/exam01_inheritance)
 - ### [부모 생성자 호출](src/chap07/sec03/exam01_parent_constructor_call)
@@ -125,7 +139,7 @@
     - #### [추상 클래스 선언](src/chap07/sec08/exam03_abstract_class)
     - #### [추상 메소드와 오버라이딩](src/chap07/sec08/exam04_abstract_method)
     
-## chapter 8. 인터페이스
+## chapter 8 인터페이스
 
 - ### 인터페이스의 역할
 
@@ -160,7 +174,7 @@
     - #### [디폴트 메소드의 필요성](src/chap08/sec07/exam01_default_method)
     - #### [디폴트 메소드가 있는 인터페이스 상속](src/chap08/sec07/exam02_default_method_inheritance)
 
-## chapter 9.중첩 클래스와 중첩 인터페이스
+## chapter 9 중첩 클래스와 중첩 인터페이스
 
 - ### 중첩 클래스와 중첩 인터페이스란?
 - ### 중첩 클래스
@@ -180,7 +194,7 @@
     - #### [익명 자식 객체 생성](src/chap09/sec05/anonymous_object)
 
 
-## chapter 10. 예외 처리
+## chapter 10 예외 처리
 - ### [예외와 예외 클래스](src/chap10/sec01/예외.md)
   
 - ### 실행 예외
@@ -204,7 +218,7 @@
 - ### 예외 정보 얻기
 
 
-## chapter 11. 기본 API 클래스
+## chapter 11 기본 API 클래스
   - ### 자바 API 도큐먼트
   - ### java.lang 과 java.util 패키지
   - ### Object 클래스
@@ -287,11 +301,11 @@
   - ### 스레드 그룹
   - ### 스레드 풀
 
-## chapter 13. 제네릭
+## chapter 13 제네릭
 
 ## chapter 14. 람다식
 
-## chapter 15. 컬렉션 프레임워크
+## chapter 15 컬렉션 프레임워크
 
 - ### 컬렉션 프레임워크 소개
 - ### List 컬렉션  
@@ -345,7 +359,14 @@
     
 - ### [정렬(sorted())](src/chap16/sec06)
 - ### [루핑 (peek() , forEach())](src/chap16/sec07)
+- ### [매칭(allMatch(), anyMatch(), noneMatch())](src/chap16/sec08/MatchExample.java)
+- ### 기본집계(sum(), count(), average(), max() ,main())
+    - #### [스트림이 제공하는 기본 집계](src/chap16/sec09/exam01_/AggregateExample.java)
+    - #### [Optional 클래스 ](src/chap16/sec09/exam02/OptioalExample.java)
+    - #### [커스텀 집계(reduce())](src/chap16/sec10/exam01)
     
+- ### 수집 (collect())
+    - #### 필터링한 요소 수집
 ## chapter 17. JavaFX
 
 ## chapter 18. IO 기반 입출력 및 네트워킹
