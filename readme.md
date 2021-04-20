@@ -12,7 +12,7 @@
 
 [chapter 5. 참조타입](#chapter-5-참조-타입)
 
-[chapter 6. 클래스](#chapter-6.-클래스)
+[chapter 6. 클래스](#chapter-6-클래스)
 
 [chapter 7. 상속](#chapter-7-상속)
 
@@ -24,21 +24,21 @@
 
 [chapter 11. 기본 API 클래스](#chapter-11-기본-api-클래스)
 
-[chapter 12. 멅티스레드](#chapter-12.-멀티스레드)
+[chapter 12. 멀티스레드](#chapter-12-멀티스레드)
 
 [chapter 13. 제네릭](#chapter-13-제네릭)
 
-[charpter 14. 람다식](#chapter-14.-람다식)
+[charpter 14. 람다식](#chapter-14-람다식)
 
 [chapter 15. 컬렉션프레임워크](#chapter-15-컬렉션)
 
-[chapter 16. 스트림과 병렬 처리](#chapter-16.-스트림과-병렬-처리)
+[chapter 16. 스트림과 병렬 처리](#chapter-16-스트림과-병렬-처리)
 
-[chapter 17. JavaFx](#chapter-17.-javafx)
+[chapter 17. JavaFx](#chapter-17-javafx)
 
-[chapter 18. IO 기반 입출력 및 네트워킹](#chapter18-.io-기반-입출력-및-네트워킹)
+[chapter 18. IO 기반 입출력 및 네트워킹](#chapter18-io-기반-입출력-및-네트워킹)
 
-[chapter 19. NIO 기반 입출력 및 네트워킹](#chapter-19.-nio-기반-입출력-및-네트워킹)
+[chapter 19. NIO 기반 입출력 및 네트워킹](#chapter-19-nio-기반-입출력-및-네트워킹)
 
 *****
 
@@ -290,7 +290,7 @@
     - #### [날짜와 시간을 조작하기](src/chap11/sec16/exam03)
     - #### [날짜와 시간을 비교하기](src/chap11/sec16/exam04/DateTimeCompareExample.java)
     - #### 파싱과 포맷팅
-## chapter 12. 멀티스레드
+## chapter 12 멀티스레드
   - ### 멀티 스레드 개념
   - ### 작업 스레드 생성과 실행
   - ### 스레드 우선 순위
@@ -303,7 +303,7 @@
 
 ## chapter 13 제네릭
 
-## chapter 14. 람다식
+## chapter 14 람다식
 
 ## chapter 15 컬렉션 프레임워크
 
@@ -335,7 +335,7 @@
 
 
 
-## chapter 16. 스트림과 병렬 처리
+## chapter 16 스트림과 병렬 처리
 - ### 스트림 소개
     - #### [반복자 스트림](src/chap16/sec01/exam01/IteratorVsSteamExample.java)
     - #### [스트림의 특징](src/chap16/sec01/exam02)
@@ -366,10 +366,20 @@
     - #### [커스텀 집계(reduce())](src/chap16/sec10/exam01)
     
 - ### 수집 (collect())
-    - #### 필터링한 요소 수집
-## chapter 17. JavaFX
+    - #### [필터링한 요소 수집](src/chap16/sec11/exam01)
+    - #### [사용자 정의 컨테이너에 수집하기](src/chap16/sec11/exam02)
+    - #### [요소를 그룹핑해서 수집](src/chap16/sec11/exam03/GroupingByExample.java)
+    - #### [그룹핑 후 매핑 및 집계](src/chap16/sec11/exam04/GroupingAndReductionExample.java)
 
-## chapter 18. IO 기반 입출력 및 네트워킹
+- ### 병렬 처리
+    - #### [동시성(Concurrency) 과 병렬성(Parallelism)](src/chap16/sec12/동시성과병렬성.md)
+    - #### 포크조인(ForkJoin)프레임워크
+    - #### [병렬 스트림 생성 ](src/chap16/sec12/exam03/MaleStudentExample.java)
+    - #### [병렬 처리 성능](src/chap16/sec12/exam04/병렬처리성능.md)
+
+## chapter 17 JavaFX
+
+## chapter 18 IO 기반 입출력 및 네트워킹
 - ### IO 패키지 소개
 - ### 입력 스트림과 출력 스트림
     - #### InputStream
@@ -410,7 +420,7 @@
   - #### [수신자 구현]()
 
 
-## chapter 19. NIO 기반 입출력 및 네트워킹
+## chapter 19 NIO 기반 입출력 및 네트워킹
 
 **********
 
