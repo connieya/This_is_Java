@@ -1,6 +1,8 @@
 package chap06.sec11.exam02_static_final;
 
+
 public class Earth {
+
 
     static final double EARTH_RADIUS = 64000;
     static final double EARTH_SURFACE_AREA;

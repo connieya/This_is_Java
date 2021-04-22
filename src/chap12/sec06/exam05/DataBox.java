@@ -4,7 +4,7 @@ public class DataBox {
 
     private String data;
 
-    public String getData() {
+    public synchronized String getData() {
         if (this.data == null){
             try {
                 wait();
@@ -19,7 +19,7 @@ public class DataBox {
         return returnValue;
     }
 
-    public void setData(String data) {
+    public synchronized void setData(String data) {
         if (this.data !=null){
             try {
                 wait();
