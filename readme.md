@@ -410,13 +410,13 @@
 ## chapter 17 JavaFX
 
 ## chapter 18 IO 기반 입출력 및 네트워킹
-- ### IO 패키지 소개
-- ### 입력 스트림과 출력 스트림
-    - #### InputStream
+- ### [IO 패키지 소개](src/chap18/IO패키지.md)
+- ### [입력 스트림과 출력 스트림](src/chap18/sec02/입출력스트림.md) , (강의 18.2 강 복습하기)
+    - #### [InputStream](src/chap18/sec02/exam01/InputStream.md)
     - #### OutputStream
     - #### Reader
     - #### Writer
-- ### 콘솔 입출력
+- ### [콘솔 입출력](src/chap18/sec03/콘솔입출력.md)
     - #### [System.in 필드](src/chap18/sec03/exam01_system_in)
     - #### [System.out 필드](src/chap18/sec03/exam02_system_out/SystemOutExample.java)
     - #### [Console 클래스](src/chap18/sec03/exam03_console/ConsoleExample.java)

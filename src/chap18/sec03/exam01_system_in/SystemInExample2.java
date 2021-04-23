@@ -1,11 +1,13 @@
 package chap18.sec03.exam01_system_in;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
 public class SystemInExample2 {
     public static void main(String[] args) throws IOException {
         InputStream is = System.in;
+
 
         byte[ ] datas = new byte[100];
 
