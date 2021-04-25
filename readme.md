@@ -36,7 +36,7 @@
 
 [chapter 17. JavaFx](#chapter-17-javafx)
 
-[chapter 18. IO 기반 입출력 및 네트워킹](#chapter18-io-기반-입출력-및-네트워킹)
+[chapter 18. IO 기반 입출력 및 네트워킹](#chapter-18-io-기반-입출력-및-네트워킹)
 
 [chapter 19. NIO 기반 입출력 및 네트워킹](#chapter-19-nio-기반-입출력-및-네트워킹)
 
@@ -67,7 +67,7 @@
 
 ## chapter 5 참조 타입
 - ### 데이터 타입 분류
-- ### 메모리 사용 영역
+- ### [메모리 사용 영역](src/chap05/메모리사용영역.md)
 - ### 참조 변수의 ==, != 연산
 - ### null 과 NullPointerException
 - ### String 타입
@@ -463,3 +463,4 @@ __모든 chapter 가 완전히 이해되어 내 것이 될 때까지 무한 회�
 3. HashSet에서 equals() 와 hashCode()는 무엇을 의미하며 오버라이딩을 왜 하는가?
 4. 객체에서 필드와 변수의 차이점은?  [click me](src/chap06/sec05/필드.md)
 5. 자바 클래스의 메인 메서드는 무엇이며 메인 메서드의 역할은?
+6. JVM이 실행 되는 원리 , 그리고 동작 순서는 어떻게 되는가 ?
