@@ -2,6 +2,8 @@ package chap06.sec08.exam01;
 
 public class Computer {
 
+
+
     int sum1(int[] values){
         int sum = 0;
         for(int s  : values){

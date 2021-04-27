@@ -3,8 +3,8 @@ package chap06.sec10.exam05_singleton;
 public class SingletonExample {
     public static void main(String[] args) {
 //
-//        Singleton obj1 = new Singleton();
-//        Singleton obj2 = new Singleton();
+//        Singleton obj1 = new Singleton();  컴파일 에러
+//        Singleton obj2 = new Singleton();  컴파일 에러
 
 
         Singleton obj1 = Singleton.getSingleton();
