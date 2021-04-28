@@ -64,6 +64,18 @@
 ## chapter 3 연산자
 
 ## chapter 4 조건문과 반복문
+- ### [코드 실행 흐름 제어](src/chap04/sec01/흐름제어.md)
+- ### 조건문(if문 , switch 문)
+    - #### if문
+    - #### if-else문
+    - #### if-else if-else문 
+    - #### 중첩 if문
+    - #### switch문
+    
+- ### 반복문(for문 , while문 , do-while 문)
+    - #### for 문
+    - #### while문
+    - #### do-while문
 
 ## chapter 5 참조 타입
 - ### 데이터 타입 분류
@@ -113,7 +125,7 @@
     - #### 메소드 선언
         - [매개 변수의 수를 모를 경우](src/chap06/sec08/매개변수의수.md)
     - #### 리턴(return)문
-    - #### 메소드 호춮
+    - #### 메소드 호출
     - #### [메소드 오버로딩](src/chap06/sec08/exam04_method_overloading)
     
 - ### [인스턴스 멤버와 this](src/chap06/sec09/exam01_instance_this) 
