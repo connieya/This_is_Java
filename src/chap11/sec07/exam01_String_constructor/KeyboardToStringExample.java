@@ -10,7 +10,7 @@ public class KeyboardToStringExample {
         System.out.println("입력 :");
         int readByteNo = System.in.read(bytes);
 
-        String str = new String(bytes , 0 , readByteNo-1);
+        String str = new String(bytes , 0 , readByteNo-2);
         System.out.println(str);
     }
 }

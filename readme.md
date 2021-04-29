@@ -291,16 +291,17 @@
     - #### [동적 객체 생성 - newInstane() ](src/chap11/sec06/exam03_newInstance)
     
  - ### String 클래스
-    - #### [String 생성자](src/chap11/sec07/exam01_String_constructor)
+    - #### [String 생성자](src/chap11/sec07/exam01_String_constructor/String생성자.md)
     - #### [String 메소드](src/chap11/sec07/exam02_String_method)
     
   - ### StringTokenizer 클래스
     - #### [split() 메소드](src/chap11/sec08/exam01_tokenizer_method/StringSplitExample.java)
     - #### [StringTokenizer 클래스](src/chap11/sec08/exam02_tokenizer_class/StringTokenizerExample.java)
- - ### [StringBuffer , StringBuilder 클래스](src/chap11/sec09/StringBuilderExample.java)
+ - ### [StringBuffer , StringBuilder 클래스](src/chap11/sec09/Buffer.md)
     
  - ### 정규 표현식과 Pattern 클래스
-    - #### [Pattern 클래스](src/chap11/sec10/exam01_Regular_expression_pattern/PatternExample.java)
+    - #### 정규 표현식 작성 방법
+    - #### [Patter클래스](src/chap11/sec10/exam01_Regular_expression_pattern/PatternExample.java)
     
  - ### Arrays 클래스
     - #### [배열 복사](src/chap11/sec11/exam01_array_copy/ArrayCopyExample.java)
@@ -335,9 +336,9 @@
     - #### 파싱과 포맷팅
 ## chapter 12 멀티스레드
   - ### 멀티 스레드 개념
-    - #### 프로세스와 스레드
-    - #### 메인 스레드  
-  - ### 작업 스레드 생성과 실행
+    - #### [프로세스와 스레드](src/chap12/sec01/스레드.md)
+    - #### [메인 스레드](src/chap12/sec01/메인스레드.md)
+  - ### [작업 스레드 생성과 실행](src/chap12/sec02/스레드생성.md)
     - #### [Thread 클래스로부터 직접 생성](src/chap12/sec02/작업스레드.md)
     - #### [Thread 하위 클래스로 부터 생성]()
     - #### [스레드의 이름](src/chap12/sec02/exam02_threadname)
