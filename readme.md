@@ -30,7 +30,7 @@
 
 [charpter 14. 람다식](#chapter-14-람다식)
 
-[chapter 15. 컬렉션프레임워크](#chapter-15-컬렉션)
+[chapter 15. 컬렉션프레임워크](#chapter-15-컬렉션-프레임워크)
 
 [chapter 16. 스트림과 병렬 처리](#chapter-16-스트림과-병렬-처리)
 
@@ -372,7 +372,7 @@
 - ### [Set 컬렉션](src/chap15/sec03/Set컬렉션.md)
   - #### [HashSet](src/chap15/sec03/exam01_hashset)
     
-- ### Map 컬렉션
+- ### [Map 컬렉션](src/chap15/sec04/Map컬렉션.md)
   - #### [HashMap](src/chap15/sec04/exam01_hashmap)
   - #### [Hashtable](src/chap15/sec04/exam02_hashtable/HashTableExample.java)
   - #### [Properties](src/chap15/sec04/exam03_properties) 

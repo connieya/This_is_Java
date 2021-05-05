@@ -13,7 +13,7 @@ public class HashMapExample1 {
         map.put("신용권",85);
         map.put("홍길동",90);
         map.put("동장군",80);
-        map.put("홍길동",95);
+        map.put("홍길동",95); // 중복 저장되지 않기 때문에  ,value가 95인 홍길동 키가 저장된다.
 
         System.out.println("총 엔트리 수 : " +map.size());
 
