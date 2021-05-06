@@ -78,10 +78,10 @@
     - #### do-while문
 
 ## chapter 5 참조 타입
-- ### 데이터 타입 분류
+- ### [데이터 타입 분류](src/chap05/sec01/데이터타입.md)
 - ### [메모리 사용 영역](src/chap05/메모리사용영역.md)
-- ### 참조 변수의 ==, != 연산
-- ### null 과 NullPointerException
+- ### [참조 변수의 ==, != 연산](src/chap05/참조변수의연산.md)
+- ### [null 과 NullPointerException](src/chap05/null.md)
 - ### String 타입
 - ### 배열 타입
     - #### 배열이란?
@@ -373,13 +373,13 @@
   - #### [HashSet](src/chap15/sec03/exam01_hashset)
     
 - ### [Map 컬렉션](src/chap15/sec04/Map컬렉션.md)
-  - #### [HashMap](src/chap15/sec04/exam01_hashmap)
-  - #### [Hashtable](src/chap15/sec04/exam02_hashtable/HashTableExample.java)
-  - #### [Properties](src/chap15/sec04/exam03_properties) 
+  - #### [HashMap](src/chap15/sec04/exam01_hashmap/HashMap.md)
+  - #### [Hashtable](src/chap15/sec04/exam02_hashtable/Hashtable.md)
+  - #### [Properties](src/chap15/sec04/exam03_properties/properties.md) 
     
-- ### 검색 기능을 강화시킨 컬렉션
-    - #### 이진 트리 구조
-    - #### [TreeSet](src/chap15/sec05/exam01_treeset)
+- ### [검색 기능을 강화시킨 컬렉션](src/chap15/sec05/검색기능.md)
+    - #### [이진 트리 구조](src/chap15/sec05/exam01_treeset/이진트리구조.md)
+    - #### [TreeSet](src/chap15/sec05/exam01_treeset/treeset.md)
     - #### [TreeMap](src/chap15/sec05/exam02_treemap)
     - #### [Comparable 과 Comparator](src/chap15/sec05/exam03_comparable)
 

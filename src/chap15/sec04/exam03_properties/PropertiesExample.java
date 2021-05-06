@@ -24,5 +24,23 @@ public class PropertiesExample {
         System.out.println("url : " +url );
         System.out.println("username : " +username );
         System.out.println("password : " +password );
+
+
+        path = PropertiesExample.class.getResource("/chap15/sec04/example/database.properties").getPath();
+        properties.load(new FileReader(path));
+
+
+         driver = properties.getProperty("driver");
+         url = properties.getProperty("url");
+         username = properties.getProperty("username");
+         password = properties.getProperty("password");
+
+        System.out.println("driver : " +driver );
+        System.out.println("url : " +url );
+        System.out.println("username : " +username );
+        System.out.println("password : " +password );
+
+
+
     }
 }
