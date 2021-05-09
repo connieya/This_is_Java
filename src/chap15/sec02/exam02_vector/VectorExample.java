@@ -17,9 +17,9 @@ public class VectorExample {
         list.add(new Board("제목7","내용7","글쓴이7"));
 
 
-        list.remove(2);
-        list.remove(2);
-        list.remove(3);
+        list.remove(2); // 2번 인덱스 삭제 (제목3) - 뒤의 인덱스 1씩 앞으로 당겨짐
+        list.remove(2); // 2번 인덱스 삭제 (제목 4) - 뒤의 인덱스 1씩 당겨짐
+        list.remove(3); // 3번 인덱스 삭제 (제목6)
 
         for (int i=0; i<list.size(); i++){
             Board  board = list.get(i);

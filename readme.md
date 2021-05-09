@@ -363,11 +363,11 @@
 
 ## chapter 15 컬렉션 프레임워크
 
-- ### 컬렉션 프레임워크 소개
-- ### List 컬렉션  
-    - #### [ArrayList](src/chap15/sec02/exam01_arraylist)
-    - #### [Vector](src/chap15/sec02/exam02_vector)
-    - #### [LinkedList](src/chap15/sec02/exam03_linkedlist)
+- ### [컬렉션 프레임워크 소개](src/chap15/컬렉션프레임워크.md)
+- ### [List 컬렉션](src/chap15/sec02/List컬렉션.md)
+    - #### [ArrayList](src/chap15/sec02/exam01_arraylist/ArrayList.md)
+    - #### [Vector](src/chap15/sec02/exam02_vector/Vector.md)
+    - #### [LinkedList](src/chap15/sec02/exam03_linkedlist/LinkedList.md)
     
 - ### [Set 컬렉션](src/chap15/sec03/Set컬렉션.md)
   - #### [HashSet](src/chap15/sec03/exam01_hashset)
@@ -491,3 +491,4 @@ __모든 chapter 가 완전히 이해되어 내 것이 될 때까지 무한 회�
 5. 자바 클래스의 메인 메서드는 무엇이며 메인 메서드의 역할은?
 6. JVM이 실행 되는 원리 , 그리고 동작 순서는 어떻게 되는가 ?
 7. [인스턴스란 무엇이며,인스턴스&정적 필드 ,인스턴스&정적 메서드의 차이와 활용법은? [click](src/chap06/sec10/정적멤버.md)
+8. int & Integer , char & Character 의 차이점은 무엇일까?
