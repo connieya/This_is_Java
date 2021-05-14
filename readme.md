@@ -43,6 +43,13 @@
 *****
 
 ## chapter 1 자바시작하기
+- ### [프로그래밍 언어란?](src/chap01/프로그래밍언어.md)
+- ### 자바란?
+    - #### 자바의 특징
+    - #### [자바 가상 기계(JVM)](src/chap01/JVM.md)
+- ### 자바 프로그램 개발 순서
+    - #### [소스 작성에서부터 실행까지](src/chap01/자바프로그램.md)
+    - #### [프로그램 소스 분석](src/chap01/소스분석.md)
 
 ## chapter 2 변수와 타입
   - ### 변수
@@ -383,9 +390,9 @@
     - #### [TreeMap](src/chap15/sec05/exam02_treemap)
     - #### [Comparable 과 Comparator](src/chap15/sec05/exam03_comparable)
 
-- ### LIFO와 FIFO 컬렉션
-    - ### [Stack](src/chap15/sec06/exam01_stack)
-    - #### [Queue](src/chap15/sec06/exam02_queue)
+- ### [LIFO와 FIFO 컬렉션](src/chap15/sec06/컬렉션.md)
+    - ### [Stack](src/chap15/sec06/stack.md)
+    - #### [Queue](src/chap15/sec06/큐.md)
 - ### 동기화된 컬렉션
 - ### 병렬 처리를 위한 컬렉션
 
@@ -444,9 +451,9 @@
     - #### Writer
 - ### [콘솔 입출력](src/chap18/sec03/콘솔입출력.md)
     - #### [System.in 필드](src/chap18/sec03/exam01_system_in)
-    - #### [System.out 필드](src/chap18/sec03/exam02_system_out/SystemOutExample.java)
-    - #### [Console 클래스](src/chap18/sec03/exam03_console/ConsoleExample.java)
-    - #### [Scanner 클래스](src/chap18/sec03/exam04_scanner/ScannerExample.java)
+    - #### [System.out 필드](src/chap18/sec03/system_out.md)
+    - #### [Console 클래스](src/chap18/sec03/exam03_console/콘솔.md)
+    - #### [Scanner 클래스](src/chap18/sec03/exam04_scanner/scanner.md)
   
 - ### 파일 입출력
     - #### [File 클래스](src/chap18/sec04/exam01_file/FileExample.java)
@@ -489,6 +496,6 @@ __모든 chapter 가 완전히 이해되어 내 것이 될 때까지 무한 회�
 3. HashSet에서 equals() 와 hashCode()는 무엇을 의미하며 오버라이딩을 왜 하는가?
 4. 객체에서 필드와 변수의 차이점은?  [click me](src/chap06/sec05/필드.md)
 5. 자바 클래스의 메인 메서드는 무엇이며 메인 메서드의 역할은?
-6. JVM이 실행 되는 원리 , 그리고 동작 순서는 어떻게 되는가 ?
+6. JVM은 무엇이며, 자바 프로그램 실행 순서는 어떻게 되는가? [click](src/chap01/JVM.md)
 7. [인스턴스란 무엇이며,인스턴스&정적 필드 ,인스턴스&정적 메서드의 차이와 활용법은? [click](src/chap06/sec10/정적멤버.md)
 8. int & Integer , char & Character 의 차이점은 무엇일까?

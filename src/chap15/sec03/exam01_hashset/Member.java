@@ -1,8 +1,11 @@
 package chap15.sec03.exam01_hashset;
 
+import java.util.LinkedList;
 import java.util.Objects;
+import java.util.Queue;
 
 public class Member {
+
 
     public String name;
     public int age;
