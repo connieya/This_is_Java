@@ -2,6 +2,7 @@
 
 InputStream은 바이트 기반 입력 스트림의 최상위 클래스로 추상 클래스이다.
 
+
 => new 연산자를 이용해서 객체를 생성 할 수 없다.
 
 ```java
@@ -9,6 +10,14 @@ InputStream은 바이트 기반 입력 스트림의 최상위 클래스로 추�
 
 ```
 `'InputStream' is abstract; cannot be instantiated`
+
+
+모든 바이트 기반 입력 스트림은 이 클래스를 상속받아서 만들어진다.
+다음과 같이 FileInputStream, BufferedInputStream, DataInputStream
+클래스는 모두 InputStream 클래스를 상속하고 있다.
+
+![img.png](img.png)
+
 
 
 #### InputStream 클래스의 주요 메소드
@@ -33,6 +42,18 @@ read() 메소드는 입력 스트림으로부터 1바이트를 읽고 4바이트
 따라서 리턴된 4바이트 중 끝의 1바이트에만 데이터가 들어 있다. 예를 들어 입력 스트림에서
 5개의 바이트가 들어온다면 다음과 같이 read() 메소드로 1바이트 씩 5번 읽을 수 있다.
 
+![img_1.png](img_1.png)
+
+더 이상 입력 스트림으로부터 바이트를 읽을 수 없다면 read() 메소드는
+-1을 리턴하는데, 이것을 이용하면 읽을 수 있는 마지막 바이트까지
+루프를 돌며 한 바이트씩 읽을 수 있다.
+```java
+InputStream is = new InputStream("C:/test.jpg");
+int readByte;
+while((readByte = is.read()) != -1){ ... }
+```
+
+예)
 ```java
 InputStream is = new FileInputStream("C:\\Temp/test.txt");
 int readByte;

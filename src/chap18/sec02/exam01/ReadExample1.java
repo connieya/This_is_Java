@@ -10,10 +10,9 @@ public class ReadExample1 {
     public static void main(String[] args) {
         try {
             InputStream is = new FileInputStream("C:\\Temp/test.txt");
-            System.out.println(is.read());
             int readByte;
             while ((readByte = is.read()) != -1){
-                System.out.println( (char) readByte);
+                System.out.print( (char) readByte);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

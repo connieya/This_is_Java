@@ -13,6 +13,9 @@ String 객체는 내부 데이터를 수정할 수 없으므로 "ABC"에 "DEF"�
 "ABCDEF"라는 새로운 String 객체가 생성된다. 그리고 변수는 새로 생성된 String 객체를
 참조하게 된다.
 
+![img.png](img.png)
+
+
 문자열을 결합하는 +연산자를 많이 사용하면 할수록 그만큼 String 객체의 수가 늘어나기 때문에,
 프로그램 성능을 느리게 하는 요인이 된다. 
 
@@ -30,7 +33,7 @@ StringBulider는 단일 스레드 환경에서만 사용하도록 설계되어 �
 
 StringBuilder 클래스는 몇 가지 생성자를 제공하고 있는데, 기본 생성자인 
 StringBuilder()는 16개의 문자들을 저장할 수 있는 초기 버퍼를 만들고,
-StringBuilder(in capacity) 생성자는 capacity로 주어진 개수만큼 문자들을
+StringBuilder(in capacity) 생성자는 capacity로0 주어진 개수만큼 문자들을
 저장할 수 있는 초기 버퍼를 만든다. StringBuilder는 버퍼가 부족할 경우 자동으로
 버퍼 크기를 늘리기 때문에 초기 버퍼의 크기는 그다지 중요하지 않다.
 ```java

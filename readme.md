@@ -80,9 +80,11 @@
     - #### switch문
     
 - ### 반복문(for문 , while문 , do-while 문)
-    - #### for 문
+    - #### [for 문](src/chap04/sec03/for문.md)
     - #### while문
-    - #### do-while문
+    - #### [do-while문](src/chap04/sec04/do_while.md)
+    - #### [break문](src/chap04/sec03/exam04/break.md)
+    - #### [continue문](src/chap04/sec03/exam05/continue.md)
 
 ## chapter 5 참조 타입
 - ### [데이터 타입 분류](src/chap05/sec01/데이터타입.md)
@@ -450,7 +452,7 @@
     - #### Reader
     - #### Writer
 - ### [콘솔 입출력](src/chap18/sec03/콘솔입출력.md)
-    - #### [System.in 필드](src/chap18/sec03/exam01_system_in)
+    - #### [System.in 필드](src/chap18/sec03/system_in.md)
     - #### [System.out 필드](src/chap18/sec03/system_out.md)
     - #### [Console 클래스](src/chap18/sec03/exam03_console/콘솔.md)
     - #### [Scanner 클래스](src/chap18/sec03/exam04_scanner/scanner.md)
@@ -462,7 +464,7 @@
     - #### [FileReader](src/chap18/sec04/exam04_file_reader/FileReaderExample.java)
     - #### [FileWriter](src/chap18/sec04/exam05_file_writer/FileWriterExample.java)
 - ### [보조 스트림](src/chap18/sec05/보조스트림.md)
-    - #### [문자 변환 보조 스트림](src/chap18/sec05/exam01/)
+    - #### [문자 변환 보조 스트림](src/chap18/sec05/exam01/문자변환보조스트림.md)
     - #### [성능 향상 보조 스트림](src/chap18/sec05/exam02)
     - #### [기본 타입 입출력 보조 스트림](src/chap18/sec05/exam03/기본타입보조스트림.md)
 - ### 네트워크 기초
@@ -485,17 +487,22 @@
 
 ## chapter 19 NIO 기반 입출력 및 네트워킹
 
-**********
 
-__모든 chapter 가 완전히 이해되어 내 것이 될 때까지 무한 회독하기__
+
+
+
+
+
+
 
 ***************
 
-1. 추상 클래스는 new 연산자를 이용해서 인스턴스를 생성할 수 없다. 그 이유는?  [click me](src/chap07/sec08/exam01/추상클래스.md)
+1. [추상 클래스는 new 연산자를 이용해서 인스턴스를 생성할 수 없다. 그 이유는?](src/chap07/sec08/exam01/추상클래스.md)
 2. 스트림에서 중간 처리와 최종 처리란? 그리고 차이점은 ?
 3. HashSet에서 equals() 와 hashCode()는 무엇을 의미하며 오버라이딩을 왜 하는가?
-4. 객체에서 필드와 변수의 차이점은?  [click me](src/chap06/sec05/필드.md)
+4. [객체에서 필드와 변수의 차이점은?](src/chap06/sec05/필드.md)
 5. 자바 클래스의 메인 메서드는 무엇이며 메인 메서드의 역할은?
-6. JVM은 무엇이며, 자바 프로그램 실행 순서는 어떻게 되는가? [click](src/chap01/JVM.md)
-7. [인스턴스란 무엇이며,인스턴스&정적 필드 ,인스턴스&정적 메서드의 차이와 활용법은? [click](src/chap06/sec10/정적멤버.md)
+6. [JVM은 무엇이며, 자바 프로그램 실행 순서는 어떻게 되는가?](src/chap01/JVM.md)
+7. 인스턴스란 무엇이며,인스턴스&정적 필드 ,인스턴스&정적 메서드의 차이와 활용법은? [click](src/chap06/sec10/정적멤버.md)
 8. int & Integer , char & Character 의 차이점은 무엇일까?
+9. [StringBuffer와 StringBuilder는 언제 쓰는게 좋고, 쓰는 이유는?](src/chap11/sec09/Buffer.md)
