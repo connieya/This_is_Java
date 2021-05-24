@@ -20,5 +20,7 @@ public class StringTokenizerExample {
             String token = st.nextToken();
             System.out.println(token);
         }
+
+
     }
 }

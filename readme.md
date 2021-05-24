@@ -187,23 +187,23 @@
    
 - ### 추상 클래스
     - #### [추상 클래스의 개념](src/chap07/sec08/exam01/추상클래스.md)
-    - #### 추상 클래스의 용도
-    - #### [추상 클래스 선언](src/chap07/sec08/exam03_abstract_class)
-    - #### [추상 메소드와 오버라이딩](src/chap07/sec08/exam04_abstract_method)
+    - #### [추상 클래스의 용도](src/chap07/sec08/exam02/용도.md)
+    - #### [추상 클래스 선언](src/chap07/sec08/exam03_abstract_class/선언.md)
+    - #### [추상 메소드와 오버라이딩](src/chap07/sec08/exam04_abstract_method/오버라이딩.md)
     
 ## chapter 8 인터페이스
 
-- ### 인터페이스의 역할
+- ### [인터페이스의 역할](src/chap08/역할.md)
 
 - ### 인터페이스 선언
-    - #### [인터페이스 선언](src/chap08/sec02/exam01_interface_declaration/RemoteControl.java) 
-    - #### [상수 필드 선언](src/chap08/sec02/exam02_constant_field/RemoteControl.java)
-    - #### [추상 메소드 선언](src/chap08/sec02/exam03_abstract_method/RemoteControl.java)
-    - #### [디폴트 메소드 선언](src/chap08/sec02/exam04_default_method/RemoteControl.java)
-    - #### [정적 메소드 선언 ](src/chap08/sec02/exam05_static_method/RemoteControl.java)   
+    - #### [인터페이스 선언](src/chap08/sec02/exam01_interface_declaration/선언.md) 
+    - #### [상수 필드 선언](src/chap08/sec02/exam02_constant_field/상수.md)
+    - #### [추상 메소드 선언](src/chap08/sec02/exam03_abstract_method/추상메소드.md)
+    - #### [디폴트 메소드 선언](src/chap08/sec02/exam04_default_method/default.md)
+    - #### [정적 메소드 선언 ](src/chap08/sec02/exam05_static_method/static.md)   
 
-- ### 인터페이스 구현
-    - #### [구현클래스](src/chap08/sec03/exam01_name_implement_class)
+- ### [인터페이스 구현](src/chap08/sec03/구현.md)
+    - #### [구현클래스](src/chap08/sec03/exam01_name_implement_class/구현클래스.md)
     - #### [익명 구현 객체](src/chap08/sec03/exam02_noname_implement_class)
     - #### [다중 인터페이스 구현 클래스](src/chap08/sec03/exam03_multi_implement_class)
     
@@ -303,9 +303,9 @@
     - #### [String 생성자](src/chap11/sec07/exam01_String_constructor/String생성자.md)
     - #### [String 메소드](src/chap11/sec07/exam02_String_method)
     
-  - ### StringTokenizer 클래스
-    - #### [split() 메소드](src/chap11/sec08/exam01_tokenizer_method/StringSplitExample.java)
-    - #### [StringTokenizer 클래스](src/chap11/sec08/exam02_tokenizer_class/StringTokenizerExample.java)
+  - ### [StringTokenizer 클래스](src/chap11/sec08/token.md)
+    - #### [split() 메소드](src/chap11/sec08/exam01_tokenizer_method/split.md)
+    - #### [StringTokenizer 클래스](src/chap11/sec08/exam02_tokenizer_class/tokenizer.md)
  - ### [StringBuffer , StringBuilder 클래스](src/chap11/sec09/Buffer.md)
     
  - ### 정규 표현식과 Pattern 클래스
