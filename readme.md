@@ -209,22 +209,22 @@
     
 - ### 인터페이스 사용
     - #### [추상 메소드 사용](src/chap08/sec04/exam01_abstract_method_use)
-    - #### [디폴트 메소드 사용](src/chap08/sec04/exam02_default_method_use)
-    - #### [정적 메소드 사용](src/chap08/sec04/exam03_static_method_use)
+    - #### [디폴트 메소드 사용](src/chap08/sec04/exam02_default_method_use/d.md)
+    - #### [정적 메소드 사용](src/chap08/sec04/exam03_static_method_use/s.md)
     
-- ### 타입 변환과 다형성
-    - #### 자동 터입 변환(Promotion)
-    - #### [필드의 다형성](src/chap08/sec05/exam01_filed_polymorphism)
-    - #### [인터페이스 배열로 구현 객체 관리](src/chap08/sec05/exam02_field_array)
-    - #### [매개 변수의 다형성](src/chap08/sec05/exam03_method_polymorphism)
-    - #### [강제 타입 변환(Casting)](src/chap08/sec05/exam04_casting)
-    - #### [객체 타입 확인(instanceof)](src/chap08/sec05/exam05_instanceof)
+- ### [타입 변환과 다형성](src/chap08/sec05/t.md)
+    - #### [자동 터입 변환(Promotion)](src/chap08/sec05/exam01_filed_polymorphism/p.md)
+    - #### [필드의 다형성](src/chap08/sec05/exam01_filed_polymorphism/f.md)
+    - #### [인터페이스 배열로 구현 객체 관리](src/chap08/sec05/exam02_field_array/a.md)
+    - #### [매개 변수의 다형성](src/chap08/sec05/exam03_method_polymorphism/p.md)
+    - #### [강제 타입 변환(Casting)](src/chap08/sec05/exam04_casting/o.md)
+    - #### [객체 타입 확인(instanceof)](src/chap08/sec05/exam05_instanceof/i.md)
   
-- ### [인터페이스 상속](src/chap08/sec06/interface_inheritance)
+- ### [인터페이스 상속](src/chap08/sec06/interface_inheritance/e.md)
 
 - ### 디폴트 메소드와 인터페이스 확장
-    - #### [디폴트 메소드의 필요성](src/chap08/sec07/exam01_default_method)
-    - #### [디폴트 메소드가 있는 인터페이스 상속](src/chap08/sec07/exam02_default_method_inheritance)
+    - #### [디폴트 메소드의 필요성](src/chap08/sec07/exam01_default_method/m.md)
+    - #### [디폴트 메소드가 있는 인터페이스 상속](src/chap08/sec07/exam02_default_method_inheritance/s.md)
 
 ## chapter 9 중첩 클래스와 중첩 인터페이스
 
