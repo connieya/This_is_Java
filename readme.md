@@ -47,6 +47,8 @@
 - ### 자바란?
     - #### 자바의 특징
     - #### [자바 가상 기계(JVM)](src/chap01/JVM.md)
+    
+- ### [자바 개발 환경 구축](src/chap01/exam03/개발.md)
 - ### 자바 프로그램 개발 순서
     - #### [소스 작성에서부터 실행까지](src/chap01/자바프로그램.md)
     - #### [프로그램 소스 분석](src/chap01/소스분석.md)
@@ -486,8 +488,19 @@
 
 
 ## chapter 19 NIO 기반 입출력 및 네트워킹
-
-
+- ### [NIO 기반 입출력 및 네트워킹](src/chap19/sec01/n.md)
+    - #### [IO와 NIO의 차이점](src/chap19/sec01/1.md)
+    - #### [IO와 NIO의 선택](src/chap19/sec01/2.md) 
+- ### 파일과 디렉토리
+    - ### [경로 정의(Path)](src/chap19/sec02/exam01_path/p.md)
+    - ### [파일 시스템 정보(FileSystem)](src/chap19/sec02/exam02_filesystem/f.md)
+- ### 버퍼
+- ### 파일 채널
+- ### 파일 비동기 채널
+- ### TCP 블로킹 채널
+- ### TCP 넌블로킹 채널
+- ### TCP 비동기 채널
+- ### UDP 채널
 
 
 
