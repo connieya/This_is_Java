@@ -127,11 +127,11 @@
     - #### [필드 사용](src/chap06/sec06/필드사용.md)
     
 - ### [생성자](src/chap06/sec07/생성자.md)
-    - #### 기본생성자
-    - #### 생성자 선언
+    - #### [기본생성자](src/chap06/sec07/exam01/p.md)
+    - #### [생성자 선언](src/chap06/sec07/exam02/2.md)
     - #### [필드 초기화](src/chap06/sec07/exam03/필드초기화.md)
-    - #### 생성자 오버로딩(Overloading)
-    - #### 다른 생성자 호출(this())
+    - #### [생성자 오버로딩(Overloading)](src/chap06/sec07/exam04/4.md)
+    - #### [다른 생성자 호출(this())](src/chap06/sec07/exam05/this.md)
 - ### 메소드
     - #### 메소드 선언
         - [매개 변수의 수를 모를 경우](src/chap06/sec08/매개변수의수.md)
@@ -168,8 +168,8 @@
 
 
 ## chapter 7 상속
-- ### 상속 개념
-- ### [클래스 상속](src/chap07/sec02/exam01_inheritance)
+- ### [상속 개념](src/chap07/sec01/1.md)
+- ### [클래스 상속](src/chap07/sec02/exam01_inheritance/c.md)
 - ### [부모 생성자 호출](src/chap07/sec03/exam01_parent_constructor_call)
 - ### 메소드 재정의
     - #### [메소드 재정의(@Override)](src/chap07/sec04/exam01_overriding)
