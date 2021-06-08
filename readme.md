@@ -170,18 +170,18 @@
 ## chapter 7 상속
 - ### [상속 개념](src/chap07/sec01/1.md)
 - ### [클래스 상속](src/chap07/sec02/exam01_inheritance/c.md)
-- ### [부모 생성자 호출](src/chap07/sec03/exam01_parent_constructor_call)
+- ### [부모 생성자 호출](src/chap07/sec03/exam01_parent_constructor_call/3.md)
 - ### 메소드 재정의
-    - #### [메소드 재정의(@Override)](src/chap07/sec04/exam01_overriding)
-    - #### [부모 메소드 호출(super)](src/chap07/sec04/exam02_super)
-- ### final 클래스와 final 메소드
-    - #### [상속할 수 없는 final 클래스](src/chap07/sec05/exam01_final_class)
-    - #### [오버라이딩할 수 없는 final 메소드](src/chap07/sec05/exam02_final_method)
-- ### [protected 접근 제한자](src/chap07/sec06)
+    - #### [메소드 재정의(@Override)](src/chap07/sec04/exam01_overriding/4.md)
+    - #### [부모 메소드 호출(super)](src/chap07/sec04/exam02_super/4_2.md)
+- ### [final 클래스와 final 메소드](src/chap07/sec05/5.md)
+    - #### [상속할 수 없는 final 클래스](src/chap07/sec05/exam01_final_class/5_1.md)
+    - #### [오버라이딩할 수 없는 final 메소드](src/chap07/sec05/exam02_final_method/5_2.md)
+- ### [protected 접근 제한자](src/chap07/sec06/6.md)
 
-- ### 타입 변환과 다형성
-  - #### [자동 타입 변환(Promotion)](src/chap07/sec07/exam01_promotion)
-  - #### [필드의 다형성](src/chap07/sec07/exam02_field_polymorphism)
+- ### [타입 변환과 다형성](src/chap07/sec07/7.md)
+  - #### [자동 타입 변환(Promotion)](src/chap07/sec07/exam01_promotion/7_1.md)
+  - #### [필드의 다형성](src/chap07/sec07/exam02_field_polymorphism/필드의다형성.md)
   - #### [하나의 배열로 객체관리](src/chap07/sec07/exam03_array_polymorphism)
   - #### [매개변수의 다형성](src/chap07/sec07/exam04_parmeter_polymorphism/매개변수의다형성.md)
   - #### [강제 타입 변환(Casting)](src/chap07/sec07/exam05_casting/강제타입변환.md)

@@ -12,6 +12,8 @@ public class ChildExample {
 
 //        parent.method3(); // 호출 불가능
 
+        System.out.println("---------------------------");
+
         Parent parent1 = new Child();
         parent1.method1();
         parent1.method2();
