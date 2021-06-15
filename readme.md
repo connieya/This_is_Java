@@ -351,12 +351,12 @@
     - #### [메인 스레드](src/chap12/sec01/메인스레드.md)
   - ### [작업 스레드 생성과 실행](src/chap12/sec02/스레드생성.md)
     - #### [Thread 클래스로부터 직접 생성](src/chap12/sec02/작업스레드.md)
-    - #### [Thread 하위 클래스로 부터 생성]()
-    - #### [스레드의 이름](src/chap12/sec02/exam02_threadname)
-  - ### [스레드 우선 순위](src/chap12/sec03/exam01_priority)
+    - #### [Thread 하위 클래스로 부터 생성](src/chap12/sec02/Thread하위클래스.md)
+    - #### [스레드의 이름](src/chap12/sec02/exam02_threadname/이름.md)
+  - ### [스레드 우선 순위](src/chap12/sec03/exam01_priority/우선순위.md)
   - ### 동기화 메소드와 동기화 블록
-    - #### [공유 객체를 사용할 때의 주의할 점](src/chap12/sec04/exam01_unsynchronized)
-    - #### [동기화 메소드 및 동기화 블록](src/chap12/sec04/exam02_synchronized)
+    - #### [공유 객체를 사용할 때의 주의할 점](src/chap12/sec04/exam01_unsynchronized/주의점.md)
+    - #### [동기화 메소드 및 동기화 블록](src/chap12/sec04/exam02_synchronized/동기화.md)
   - ### [스레드 상태](src/chap12/sec05/스레드상태.md)
   - ### 스레드 상태 제어
     - #### [주어진 시간동안 일시 정지(sleep())](src/chap12/sec06/exam01_sleep/SleepExample.java)
@@ -370,7 +370,7 @@
 
 ## chapter 13 제네릭
 - ### [왜 제네릭을 사용해야 하는가?](src/chap13/sec01/1.md)
-- ### 제네릭 타입(class<T>, interface<T>)
+- ### [제네릭 타입(class\<T>, interface\<T>)](src/chap13/sec02/2.md)
 - ### 멀티 타입 파라미터(class<K,V...> interface<K,V..>)
 - ### 제네릭 메소드<T,R> R method(T t)
 - ### 제한된 타입 파라미터<T extends 최상위 타입>)
