@@ -10,5 +10,14 @@ public class MyFunctionalInterfaceExample {
             System.out.println(result);
         };
         fi.method(4);
+
+        fi = (x) -> {
+            System.out.println(x+10);
+        };
+        fi.method(20);
+
+        fi = x -> System.out.println(x*10);
+
+        fi.method(7);
     }
 }
