@@ -378,14 +378,14 @@
 - ### 제네릭 타입의 상속과 구현
 
 ## chapter 14 람다식
-- ### 람다식이란?
-- ### 람다식 기본 문법
+- ### [람다식이란?](src/chap14/sec01/1.md)
+- ### [람다식 기본 문법](src/chap14/sec02/2.md)
 - ### [타겟 타입과 함수적 인터페이스](src/chap14/sec03/14.md)
     - #### [함수적 인터페이스(@FunctionalInterface)](src/chap14/sec03/exam01_no_argument_no_return/1.md)
     - #### [매개 변수와 리턴값이 없는 람다식](src/chap14/sec03/exam01_no_argument_no_return/2.md)
     - #### [매개 변수가 있는 람다식](src/chap14/sec03/exam02_arguments/3.md)
     - #### [리턴값이 있는 람다식](src/chap14/sec03/exam03_return/4.md)
-- ### 클래스 멤버롸 로컬 변수 사용
+- ### 클래스 멤버와 로컬 변수 사용
     - #### [클래스의 멤버 사용](src/chap14/sec04/exam01_filed/1.md)
     - #### [로컬 변수 사용](src/chap14/sec04/exam02_local_variable/2.md)
 - ### [표준 API 의 함수적 인터페이스](src/chap14/sec05/14_5.md)
