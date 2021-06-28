@@ -12,28 +12,26 @@ Set 컬렉션은 또한 *__구슬 주머니와도 같다.__*
 동일한 구슬을 두 개 넣을 수 없고, 
 들어갈 때의 순서와 나올 때의 순서가 다를 수도 있기 때문이다.
 
+![img.png](img.png)
+
 ********
 
 Set 컬렉션 HashSet, LinkedHashSet , TreeSet 등이 있는데,
 다음은 Set 컬렉션에서 공통적으로 사용 가능한 Set 인터페이스의 메소드들이다.
 인덱스로 관리하지 않기 때문에 인덱스를 매개 값으로 갖는 메소드가 없다.
 
-### 객체 추가
-- boolean add(E e) : 주어진 객체를 저장, 객체가 성공적으로 저장되면 true
-를 리턴하고 중복 객체면 false를 리턴
-  
-### 객체 검색
-- boolean contains(Object o) : 주어진 객체가 저장되어 있는지 여부
-- boolean isEmpty() : 컬렉션이 비어 있는지 조사
-- Iterator \<E> iterator() : 저장된 객체를 한 번씩 가져오는 반복자 리턴
-- int size() : 저장되어 있는 전체 객체 수 리턴
-
-### 객체 삭제
-- void clear() : 저장된 모든 객체를 리턴
-- boolean remove(Object o) : 주어진 객체를 삭제
+|기능|메소드|설명|
+|:---|:----|:---|
+|객체 추가|boolean add(E e)|주어진 객체를 저장, 객체가 성공적으로 저장되면 true를 리턴하고 중복 객체면 false를 리턴|
+|객체 검색| boolean contains(Object o) |  주어진 객체가 저장되어있는지 여부
+|객체 검색|boolean isEmpty() | 컬렉션이 비어 있는지 조사|
+|객체 검색| int size()| 저장되어 있는 전체 객체 수 리턴
+|객체 검색|iterator<E> iterator() | 저장된 객체를 한 번씩 가져오는 반복자 리턴|
+|객체 삭제 | void clear() | 저장된 모든 객체를 삭제
+|객체 삭제 | boolean remove(Object o)| 주어진 객체를 삭제
 
 
-위는 메소드의 매개 변수 타입과 리턴 타입에 E라는 타입 파라미터가 있는데,
+위 표에서 메소드의 매개 변수 타입과 리턴 타입에 E라는 타입 파라미터가 있는데,
 이것은 Set 인터페이스가 제네릭 타입이기 때문이다. 구체적인 타입은
 구현 객체를 생성할 때 결정된다. 객체 추가 add() 메소드를 
 사용하고, 객체 삭제는 remove() 메소드를 사용한다. 
@@ -60,10 +58,12 @@ Iterator<String> iterator = set.iterator();
 
 다음은 Iterator 인터페이스에 선언된 메소드들이다.
 
-리턴 타입 - 메소드명 - 설명
-- boolean - hasNext() - 가져올 객체가 있으면 true를 리턴하고 없으면 false를 리턴한다.
-- E - next() - 컬렉션에서 하나의 객체를 가져온다.
-- void - remove() - Set 컬렉션에서 객체를 제거한다.
+|리턴 타입|메소드명|설명|
+|:---|:---|:---
+|boolean | hasNext() | 가져올 객체가 있으면 true를 리턴하고 없으면 false를 리턴한다.
+|E | next() | 컬렉션에서 하나의 객체를 가져온다.
+| void | remove() | Set 컬렉션에서 객체를 제거한다.
+
 
 Iterator에서 하나의 객체를 가져올 때는 next() 메소드를 사용한다.
 next() 메소드를 사용하기 전에 먼저 가져올 객체가 있는지 확인하는 것이

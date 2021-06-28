@@ -401,7 +401,7 @@
     - #### [LinkedList](src/chap15/sec02/exam03_linkedlist/LinkedList.md)
     
 - ### [Set 컬렉션](src/chap15/sec03/Set컬렉션.md)
-  - #### [HashSet](src/chap15/sec03/exam01_hashset)
+  - #### [HashSet](src/chap15/sec03/exam01_hashset/HashSet.md)
     
 - ### [Map 컬렉션](src/chap15/sec04/Map컬렉션.md)
   - #### [HashMap](src/chap15/sec04/exam01_hashmap/HashMap.md)
@@ -412,7 +412,7 @@
     - #### [이진 트리 구조](src/chap15/sec05/exam01_treeset/이진트리구조.md)
     - #### [TreeSet](src/chap15/sec05/exam01_treeset/treeset.md)
     - #### [TreeMap](src/chap15/sec05/exam02_treemap)
-    - #### [Comparable 과 Comparator](src/chap15/sec05/exam03_comparable)
+    - #### [Comparable 과 Comparator](src/chap15/sec05/exam03_comparable/c.md)
 
 - ### [LIFO와 FIFO 컬렉션](src/chap15/sec06/컬렉션.md)
     - ### [Stack](src/chap15/sec06/stack.md)
