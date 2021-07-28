@@ -12,14 +12,12 @@ public class Member {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Member){
-            Member member = (Member) obj;
-            if (id.equals(member.id)){
-                return true;
-            }
+        if (!(obj instanceof Member)) {
+            return false;
         }
+        Member member = (Member) obj;
 
-        return false;
+        return this.id.equals(member.id);
     }
 
     }

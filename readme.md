@@ -275,8 +275,8 @@
 ## chapter 11 기본 API 클래스
   - ### 자바 API 도큐먼트
   - ### java.lang 과 java.util 패키지
-  - ### Object 클래스
-    - #### [객체비교( equals() ) ](src/chap11/sec03/exam01_equals)
+  - ### [Object 클래스](src/chap11/Object.md)
+    - #### [객체비교( equals() ) ](src/chap11/sec03/exam01_equals/equals.md)
     - #### [객체 해시코드(hashCode() )](src/chap11/sec03/exam02_hashcode/해시코드.md)
     - #### [객체문자정보(toStrng() )]()
     - #### [객체 복제(clone () ) ]()
