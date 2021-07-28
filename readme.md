@@ -93,7 +93,7 @@
 - ### [메모리 사용 영역](src/chap05/메모리사용영역.md)
 - ### [참조 변수의 ==, != 연산](src/chap05/참조변수의연산.md)
 - ### [null 과 NullPointerException](src/chap05/null.md)
-- ### String 타입
+- ### [String 타입](src/chap05/sec05/5.md)
 - ### 배열 타입
     - #### 배열이란?
     - #### 배열 선언
