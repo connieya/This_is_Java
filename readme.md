@@ -311,7 +311,7 @@
  - ### [StringBuffer , StringBuilder 클래스](src/chap11/sec09/Buffer.md)
     
  - ### 정규 표현식과 Pattern 클래스
-    - #### 정규 표현식 작성 방법
+    - #### [정규 표현식 작성 방법](src/chap11/sec10/정규표현식.md)
     - #### [Patter클래스](src/chap11/sec10/exam01_Regular_expression_pattern/PatternExample.java)
     
  - ### Arrays 클래스
