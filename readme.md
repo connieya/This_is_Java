@@ -448,8 +448,8 @@
 - ### [루핑 (peek() , forEach())](src/chap16/sec07)
 - ### [매칭(allMatch(), anyMatch(), noneMatch())](src/chap16/sec08/MatchExample.java)
 - ### 기본집계(sum(), count(), average(), max() ,main())
-    - #### [스트림이 제공하는 기본 집계](src/chap16/sec09/exam01_/AggregateExample.java)
-    - #### [Optional 클래스 ](src/chap16/sec09/exam02/OptioalExample.java)
+    - #### [스트림이 제공하는 기본 집계](src/chap16/sec09/기본집계.md)
+    - #### [Optional 클래스 ](src/chap16/sec09/exam02/Optional.md)
     - #### [커스텀 집계(reduce())](src/chap16/sec10/exam01)
     
 - ### 수집 (collect())
