@@ -424,10 +424,10 @@
 
 ## chapter 16 스트림과 병렬 처리
 - ### 스트림 소개
-    - #### [반복자 스트림](src/chap16/sec01/exam01/IteratorVsSteamExample.java)
-    - #### [스트림의 특징](src/chap16/sec01/exam02)
-- ### 스트림의 종류
-    - #### [컬렉션으로부터 스트림 얻기](src/chap16/sec02/exam01)
+    - #### [반복자 스트림](src/chap16/sec01/exam01/반복자.md)
+    - #### [스트림의 특징](src/chap16/sec01/exam02/스트림특징.md)
+- ### [스트림의 종류](src/chap16/sec02/스트림의종류.md)
+    - #### [컬렉션으로부터 스트림 얻기](src/chap16/sec02/exam01/FromCollectionExample.java)
     - #### [배열루부터 스트림 얻기](src/chap16/sec02/exam02/FromArrayExample.java)
     - #### [숫자 범위로부터 스트림 얻기](src/chap16/sec02/exam03/FromIntRangeExample.java)
     - #### [파일로 부터 스트림 얻기](src/chap16/sec02/exam04/FromFileContentExample.java)
@@ -452,9 +452,9 @@
     - #### [Optional 클래스 ](src/chap16/sec09/exam02/Optional.md)
     - #### [커스텀 집계(reduce())](src/chap16/sec10/exam01)
     
-- ### 수집 (collect())
-    - #### [필터링한 요소 수집](src/chap16/sec11/exam01)
-    - #### [사용자 정의 컨테이너에 수집하기](src/chap16/sec11/exam02)
+- ### [수집 (collect())](./src/chap16/sec11/collect.md)
+    - #### [필터링한 요소 수집](src/chap16/sec11/exam01/collector.md)
+    - #### [사용자 정의 컨테이너에 수집하기](src/chap16/sec11/exam02/사용자정의.md)
     - #### [요소를 그룹핑해서 수집](src/chap16/sec11/exam03/GroupingByExample.java)
     - #### [그룹핑 후 매핑 및 집계](src/chap16/sec11/exam04/GroupingAndReductionExample.java)
 
