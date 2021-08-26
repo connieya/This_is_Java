@@ -2,6 +2,7 @@ package chap16.sec05.exam03_asdouble;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class AsDoubleStreamAndBoxedExample {
     public static void main(String[] args) {
@@ -17,5 +18,10 @@ public class AsDoubleStreamAndBoxedExample {
         intStream = Arrays.stream(intArray);
 
         intStream.boxed().forEach(obj -> System.out.println(obj.intValue()));
+
+        IntStream stream = Stream.of(intStream)
+                .mapToInt(IntStream::sum);
+        System.out.println(stream);
     }
+
 }

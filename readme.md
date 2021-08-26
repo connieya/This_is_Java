@@ -433,16 +433,16 @@
     - #### [파일로 부터 스트림 얻기](src/chap16/sec02/exam04/FromFileContentExample.java)
     - #### [디렉토리로부터 스트림 얻기](src/chap16/sec02/exam05/FromDirectoryExample.java)
     
-- ### 스트림 파이프라인
-    - #### [중간 처리와 최종 처리](src/chap16/sec03/exam01_stream_pipe_line)
-    - #### 중간 처리 메소드와 최종 처리 메소드
+- ### [스트림 파이프라인](src/chap16/sec03/파이프라인.md)
+    - #### [중간 처리와 최종 처리](src/chap16/sec03/exam01_stream_pipe_line/중간처리.md)
+    - #### [중간 처리 메소드와 최종 처리 메소드](src/chap16/sec03/exam02_/method.md)
     
-- ### [필터링(distinct() , filter())](src/chap16/sec04/FilteringExample.java)
+- ### [필터링(distinct() , filter())](src/chap16/sec04/filter.md)
 
-- ### 매핑(flatMapXXX(), mapXXX(), asXXXStream(), boxed())
-    - #### [flatMapXXX()메소드](src/chap16/sec05/exam01_flatmap/FlatMapExample.java)
-    - #### [mpaXXX()메소드](src/chap16/sec05/exam02_map)
-    - #### [asDoubleStream() , asLongStream() , boxed() 메소드](src/chap16/sec05/exam03_asdouble/AsDoubleStreamAndBoxedExample.java)
+- ### [매핑(flatMapXXX(), mapXXX(), asXXXStream(), boxed())](src/chap16/sec05/mapping.md)
+    - #### [flatMapXXX()메소드](src/chap16/sec05/exam01_flatmap/flatMap.md)
+    - #### [mpaXXX()메소드](src/chap16/sec05/exam02_map/map.md)
+    - #### [asDoubleStream() , asLongStream() , boxed() 메소드](src/chap16/sec05/exam03_asdouble/as.md)
     
 - ### [정렬(sorted())](src/chap16/sec06)
 - ### [루핑 (peek() , forEach())](src/chap16/sec07)
