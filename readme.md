@@ -444,7 +444,7 @@
     - #### [mpaXXX()메소드](src/chap16/sec05/exam02_map/map.md)
     - #### [asDoubleStream() , asLongStream() , boxed() 메소드](src/chap16/sec05/exam03_asdouble/as.md)
     
-- ### [정렬(sorted())](src/chap16/sec06)
+- ### [정렬(sorted())](src/chap16/sec06/sort.md)
 - ### [루핑 (peek() , forEach())](src/chap16/sec07)
 - ### [매칭(allMatch(), anyMatch(), noneMatch())](src/chap16/sec08/MatchExample.java)
 - ### 기본집계(sum(), count(), average(), max() ,main())
