@@ -1,4 +1,4 @@
-package chap06.sec15.exam04_annotation_runtime;
+package chap06.sec15.exam04;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
